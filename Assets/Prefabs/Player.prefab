@@ -512,6 +512,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 898523551464184196}
+  - component: {fileID: 1657257148}
   m_Layer: 5
   m_Name: GameOver Screen
   m_TagString: Untagged
@@ -541,6 +542,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1657257148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1735828722924679555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d7ca6784c454c442909b45c1a4a3b81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3855356867237113253
 GameObject:
   m_ObjectHideFlags: 0
@@ -875,6 +888,7 @@ GameObject:
   - component: {fileID: 7141400149766347579}
   - component: {fileID: 7141400149766347572}
   - component: {fileID: 1183607785258453582}
+  - component: {fileID: 3732833844881431792}
   - component: {fileID: 978624102}
   m_Layer: 0
   m_Name: Player
@@ -966,6 +980,18 @@ MonoBehaviour:
   Fireball: {fileID: 6810657709983260541, guid: 9da9cf7e934166e4ea9d1ae5b63f6b23,
     type: 3}
   FireballSourceTransform: {fileID: 2073090225}
+--- !u!114 &3732833844881431792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7141400149766347576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a47d7f30edc29f8469040329c1e17471, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &978624102
 MonoBehaviour:
   m_ObjectHideFlags: 0
