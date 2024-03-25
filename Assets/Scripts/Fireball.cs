@@ -20,7 +20,7 @@ public class Fireball : MonoBehaviour
 
     private void OnTriggerEnter(Collider col)
     {
-        if (col.gameObject.GetComponent<EnemyHealth>() != null) col.gameObject.GetComponent<EnemyHealth>().Health -= Damage;
+        if (col.gameObject.GetComponent<EnemyHealth>() != null) col.gameObject.GetComponent<EnemyHealth>().DealDamage(Damage);
         if (!col.CompareTag("Player")) DestroyFireball();
     }
 
